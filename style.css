@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 30px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.row input{
+    text-align: right;
+    font-size: 28px;
+    margin: 0;
+    padding: 15px 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.box{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px 30px;
+    background-color: skyblue;
+    border: 5px solid black;
+    border-radius: 50px;
+}

@@ -1,0 +1,155 @@
+body {
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(
+        #2eaed9 0%,
+        #6bb8cf 10%,
+        #7fc3d6 16%,
+        #9eb4c2 24%,
+        #bb9fae 40%,
+        #c49fae 48%,
+        #d39586 76%,
+        #d63176 100%
+    );
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+section {
+    margin: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+ul {
+    list-style: square;
+    padding: 0;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.yourname{
+    margin-left: 0;
+    margin-right: 20rem;
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 11cm;
+    width: 9cm;
+}
+
+.about{
+    display: flex;
+}
+
+/* .about1{
+    margin-left: 10rem;
+} */
+
+.projects{
+    display: flex;
+}
+
+.project1{
+    /* margin-right: 20px; */
+    margin-left: 20px;
+}
+
+.projectplant{
+    height: 8cm;
+    width: 10cm; 
+    border: 4px sandybrown;
+    /* border-radius: 20px; */
+    margin-left: 5rem;
+    margin-right: 10rem;
+}
+
+#skills{
+    justify-content: left;
+}
+
+h2,h3{
+    margin-left: 5rem;
+}
+
+#skillset{
+    display: flex;
+
+}
+
+.skill{
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+#aboutme{
+    margin-left: 5rem;
+    margin-right: 18rem;
+    font-size: larger;
+    max-width: 15cm;
+}
+
+.hms{
+    margin-left: 5rem;
+    max-width: 10cm;
+}
+
+#resume{
+    margin-left: 5rem;
+    border-radius: 4px;
+    background-color:skyblue;
+    height: 1cm;
+    width: 10cm;
+}
+
+#contact{
+    height: 20rem;
+    margin-left: 5rem;
+}
+
+.contact{
+    border-radius: 30px;
+    height: 3rem;
+    width: 3rem;
+}
+
+.c1{
+    display: flex;
+    margin-left: 8px;
+}
